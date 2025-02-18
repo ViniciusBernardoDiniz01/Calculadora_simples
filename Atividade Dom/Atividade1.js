@@ -25,7 +25,7 @@ function calcular(){
             document.getElementById("texto").innerText = "A potencia é: "+poten;
             break;
         case "porcentagem":
-            let porcen = (numero1*numero2) / 100;
+            let porcen = (numero1/100) * numero2;
             document.getElementById("texto").innerText = "A porcentagem é: "+porcen;
             break;
         default:
